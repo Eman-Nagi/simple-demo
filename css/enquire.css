@@ -1,0 +1,146 @@
+/* start section user list*/
+body {
+    padding-top: 70px;
+}
+
+.user-list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F5F5F5;
+    margin-top: 0px;
+}
+
+.user-list .home-dashboard {
+    color:  #9B00AC;
+}
+
+.home-div ul li{
+    display:inline-block;
+
+}
+.user {
+    padding: 15px 0px;
+}
+
+.user img {
+    width: 44px;
+    height: 44px;
+}
+
+.user-list .btn {
+    background-color:  #9B00AC;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: -40px;
+    width: 104px;
+    height: 35px;
+}
+
+/* end section user list*/
+
+/* start section users*/
+
+.users .container {
+    margin-top: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    /*height: 880px;*/
+    box-shadow: 0 0 3px #808080;
+    margin-bottom: 40px;
+}
+
+.users .user-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.users img {
+    border-radius: 50%;
+}
+
+.users span {
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10px;
+    color: #555;
+}
+
+.users .action {
+    padding: 25px 0px;
+}
+
+.users .action a.icon {
+    color: #8e4dad;
+    margin-left: 10px;
+    border: 1px solid #8e4dad;
+    padding: 7px;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.users .action a.icon i {
+    color: #8e4dad;
+    margin-left: 2px;
+}
+
+.users .action a.icon:last-of-type {
+    border: 0px;
+    margin-left: 20px;
+}
+
+.users .action a.icon:hover {
+    text-decoration: none;
+}
+
+.users .user p {
+    margin-bottom: 30px;
+}
+
+.users .row {
+    border-bottom: 1px solid #eee;
+}
+
+.users .row:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.users .row:hover .action a.icon {
+    background-color: #fff;
+}
+
+.users .row:hover .action a.icon:last-of-type,
+.users .row:first-of-type:hover {
+    background-color: transparent;
+}
+
+.users .third-row:hover {
+    background-color: #eee;
+}
+
+.users .row:nth-child(6),
+.users .row:first-of-type {
+    border: 0px !important;
+}
+
+.loading-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.loading {
+    color: #8e4dad;
+}
+
+/* end section users*/

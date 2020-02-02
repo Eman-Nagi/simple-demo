@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- first mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> enquire Page</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/enquire.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+</head>
+
+<body>
+
+    <!-- modal for edit user -->
+    <div class="modal fade" id="editUser" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit User</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/png/logo.png" />
+
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- id of data target-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"> HOME <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#"> ABOUT</a></li>
+                    <li><a href="#"> CONTACT</a></li>
+                    <li><a href="#" class="login"> enquire</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- End Navbar-->
+
+    <!-- <button class="btn btn-primary" data-toggle="modal" data-target="#editUser">click modal</button> -->
+    <!-- start section BreadCrumb-->
+    <section class="user-list">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11">
+                    <div class="home-div">
+                        <!--<p class="home-dashboard"><a href="#"> Home </a> / Dashboard</p>-->
+                        <ul class="list-unstyled">
+                            <li><a class="home-dashboard" href="#"> Home</a></li>
+                            <li class="home-dashboard">&#x0002F;</li>
+                            <li class="home-dashboard">Dashboard</li>
+                        </ul>
+                        <h1> Users List </h1>
+                    </div>
+                </div>
+
+                <div class="col-lg-1 home">
+                    <div class="home-div">
+                        <button class="btn">New User</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- end section BreadCrumb-->
+
+    <!-- start section users-->
+    <section class="users">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <p>User</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <p style="margin-right:100px;">Actions</p>
+                </div>
+            </div>
+            <div class="row" onclick="alert('hi sweaty')">
+                <div class="col-lg-10">
+                    <div class="user">
+
+                        <img src="images/png//01.jpg" alt="user">
+                        <span> Valdimir Usov</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="action">
+                        <a href="#user" class="icon">
+                            <i class="fa fa-pencil"></i>
+                        </a>
+                        <a href="#user" class="icon">
+                            <i class="fa fa-trash"></i>
+                        </a>
+                        <a href="#user" class="icon">
+                            <i class="fa fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="user">
+
+                        <img src="images/png//01.jpg" alt="user">
+                        <span> Valdimir Usov</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="action">
+                        <a href="#user" class="icon">
+                            <i class="fa fa-pencil"></i>
+                        </a>
+                        <a href="#user" class="icon">
+                            <i class="fa fa-trash"></i>
+                        </a>
+                        <a href="#user" class="icon">
+                            <i class="fa fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="user">
+
+                        <img src="images/png//01.jpg" alt="user">
+                        <span> Valdimir Usov</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="action">
+                        <a href="#user" class="icon">
+                            <i class="fa fa-pencil"></i>
+                        </a>
+                        <a href="#user" class="icon">
+                            <i class="fa fa-trash"></i>
+                        </a>
+                        <a href="#user" class="icon">
+                            <i class="fa fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="user">
+
+                        <img src="images/png//01.jpg" alt="user">
+                        <span> Valdimir Usov</span>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-2">
+                    <div class="action">
+                        <a href="#user" class="icon">
+                            <i class="fa fa-pencil"></i>
+                        </a>
+                        <a href="#user" class="icon">
+                            <i class="fa fa-trash"></i>
+                        </a>
+                        <a href="#user" class="icon">
+                            <i class="fa fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="user">
+
+                        <img src="images/png//01.jpg" alt="user">
+                        <span> Valdimir Usov</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="action">
+                        <a href="#user" class="icon">
+                            <i class="fa fa-pencil"></i>
+                        </a>
+                        <a href="#user" class="icon">
+                            <i class="fa fa-trash"></i>
+                        </a>
+                        <a href="#user" class="icon">
+                            <i class="fa fa-chevron-right"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="loading text-center" style="padding: 20px 0px;">
+                <img src="images/png/icons-8-spinner-frame-1.png" class="icon">
+                <div style="margin-top:10px;">
+                    <p class="loading"> Loading more users</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end section users-->
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

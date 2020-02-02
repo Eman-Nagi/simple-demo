@@ -1,0 +1,93 @@
+/* start section welcome back*/
+
+.welcome .test {
+    height: 569px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    border-radius: 12px;
+    width: 888px;
+    margin: auto auto 100px;
+}
+
+.welcome .welcome-img {
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.welcome-back {
+
+    color: #888;
+    position: relative;
+    padding: 120px 20px 0px 10px;
+}
+
+.welcome-back h1 {
+    font-weight: bold;
+    color: #36485F;
+    font-size: 32px;
+}
+
+.welcome-back .lead {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.welcome-back form label {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.welcome-back .spaces {
+    color: #8e4dad;
+    font-size: 18px;
+}
+
+.welcome-back input {
+    font-size: 15px;
+}
+
+.welcome-back .forgotpassword {
+    display: inline-block;
+}
+
+.welcome-back .forgotpassword a {
+    color: #8e4dad;
+}
+
+.welcome-back button {
+    color: #fff;
+    background-color: #8e4dad;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    float: right;
+    text-transform: uppercase;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.welcome-back button:hover {
+    color: #fff;
+}
+
+/* end section welcome back*/
+
+/* width for .welcome & .test &.login =>error*/
+
+/* الزرار */
+
+/* ليه لما بدى هايت للكونتينر والسيكشن مش بيسمع*/
+
+/* ليه لما بغير فى الجريد سيستيم الشكل بيبوظ*/
+
+@media(max-width:676px) {
+    .navbar {
+        height: 66px;
+    }
+
+    .navbar-default .navbar-toggle {
+        margin-top: 15px;
+    }
+}
